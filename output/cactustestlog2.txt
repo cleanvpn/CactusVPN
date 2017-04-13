@@ -1,0 +1,215 @@
+Thu Apr 13 01:10:48 2017 us=72091 Current Parameter Settings:
+Thu Apr 13 01:10:48 2017 us=72286   config = 'CactusVPN_testcert2.ovpn'
+Thu Apr 13 01:10:48 2017 us=72322   mode = 0
+Thu Apr 13 01:10:48 2017 us=72347 NOTE: --mute triggered...
+Thu Apr 13 01:10:48 2017 us=72369 273 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:48 2017 us=72380 OpenVPN 2.3.14 i586-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Dec  7 2016
+Thu Apr 13 01:10:48 2017 us=72396 library versions: OpenSSL 1.0.1t  3 May 2016, LZO 2.08
+Thu Apr 13 01:10:56 2017 us=398270 PKCS#11: pkcs11_initialize - entered
+Thu Apr 13 01:10:56 2017 us=398467 PKCS#11: pkcs11_initialize - return 0-'CKR_OK'
+Thu Apr 13 01:10:56 2017 us=398512 PO_INIT maxevents=4 flags=0x00000002
+Thu Apr 13 01:10:56 2017 us=399701 NOTE: --mute triggered...
+Thu Apr 13 01:10:56 2017 us=399886 10 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:56 2017 us=399918 Control Channel MTU parms [ L:1559 D:1210 EF:40 EB:0 ET:0 EL:3 ]
+Thu Apr 13 01:10:56 2017 us=399963 MTU DYNAMIC mtu=1450, flags=2, 1559 -> 1450
+Thu Apr 13 01:10:56 2017 us=400019 Socket Buffers: R=[87380->87380] S=[16384->16384]
+Thu Apr 13 01:10:56 2017 us=400066 RESOLVE_REMOTE flags=0x0101 phase=1 rrs=0 sig=-1 status=0
+Thu Apr 13 01:10:56 2017 us=400095 Data Channel MTU parms [ L:1559 D:1450 EF:59 EB:12 ET:0 EL:3 ]
+Thu Apr 13 01:10:56 2017 us=400140 Local Options String: 'V4,dev-type tun,link-mtu 1559,tun-mtu 1500,proto TCPv4_CLIENT,cipher AES-128-CBC,auth SHA1,keysize 128,key-method 2,tls-client'
+Thu Apr 13 01:10:56 2017 us=400163 Expected Remote Options String: 'V4,dev-type tun,link-mtu 1559,tun-mtu 1500,proto TCPv4_SERVER,cipher AES-128-CBC,auth SHA1,keysize 128,key-method 2,tls-server'
+Thu Apr 13 01:10:56 2017 us=400315 Local Options hash (VER=V4): '30065675'
+Thu Apr 13 01:10:56 2017 us=400363 Expected Remote Options hash (VER=V4): '37840390'
+Thu Apr 13 01:10:56 2017 us=400400 STREAM: RESET
+Thu Apr 13 01:10:56 2017 us=400423 STREAM: INIT maxlen=1562
+Thu Apr 13 01:10:56 2017 us=400456 Attempting to establish TCP connection with [AF_INET]88.150.154.46:443 [nonblock]
+Thu Apr 13 01:10:57 2017 us=400821 TCP connection established with [AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:57 2017 us=400902 TCPv4_CLIENT link local: [undef]
+Thu Apr 13 01:10:57 2017 us=400925 TCPv4_CLIENT link remote: [AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:57 2017 us=400950 TIMER: coarse timer wakeup 1 seconds
+Thu Apr 13 01:10:57 2017 us=400981 TLS: tls_multi_process: i=0 state=S_INITIAL, mysid=e0422852 a686aee0, stored-sid=00000000 00000000, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:57 2017 us=400993 TLS: tls_process: chg=0 ks=S_INITIAL lame=S_UNDEF to_link->len=0 wakeup=604800
+Thu Apr 13 01:10:57 2017 us=401003 NOTE: --mute triggered...
+Thu Apr 13 01:10:57 2017 us=401039 16 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:57 2017 us=401058 TCPv4_CLIENT WRITE [14] to [AF_INET]88.150.154.46:443: P_CONTROL_HARD_RESET_CLIENT_V2 kid=0 sid=e0422852 a686aee0 [ ] pid=0 DATA 
+Thu Apr 13 01:10:57 2017 us=401068 STREAM: WRITE 14 offset=30
+Thu Apr 13 01:10:57 2017 us=401149 TCPv4_CLIENT write returned 16
+Thu Apr 13 01:10:57 2017 us=401172 TLS: tls_multi_process: i=0 state=S_PRE_START, mysid=e0422852 a686aee0, stored-sid=00000000 00000000, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:57 2017 us=401182 NOTE: --mute triggered...
+Thu Apr 13 01:10:57 2017 us=587645 20 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:57 2017 us=587755 TCPv4_CLIENT READ [26] from [AF_INET]88.150.154.46:443: P_CONTROL_HARD_RESET_SERVER_V2 kid=0 sid=a32b8dda 526b9baf [ 0 sid=e0422852 a686aee0 ] pid=0 DATA 
+Thu Apr 13 01:10:57 2017 us=587794 TLS: control channel, op=P_CONTROL_HARD_RESET_SERVER_V2, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:57 2017 us=587837 TLS: initial packet test, i=0 state=S_PRE_START, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=00000000 00000000, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:57 2017 us=587879 TLS: initial packet test, i=1 state=S_INITIAL, mysid=6747b73e cd55b3c6, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=00000000 00000000, stored-ip=[undef]
+Thu Apr 13 01:10:57 2017 us=587892 NOTE: --mute triggered...
+Thu Apr 13 01:10:57 2017 us=587904 1 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:57 2017 us=587920 TLS: Initial packet from [AF_INET]88.150.154.46:443, sid=a32b8dda 526b9baf
+Thu Apr 13 01:10:57 2017 us=587935 TLS: received control channel packet s#=0 sid=a32b8dda 526b9baf
+Thu Apr 13 01:10:57 2017 us=587946 ACK reliable_schedule_now
+Thu Apr 13 01:10:57 2017 us=587959 ACK received for pid 0, deleting from send buffer
+Thu Apr 13 01:10:57 2017 us=587970 NOTE: --mute triggered...
+Thu Apr 13 01:10:57 2017 us=588037 22 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:57 2017 us=588064 TCPv4_CLIENT WRITE [22] to [AF_INET]88.150.154.46:443: P_ACK_V1 kid=0 sid=e0422852 a686aee0 [ 0 sid=a32b8dda 526b9baf ]
+Thu Apr 13 01:10:57 2017 us=588077 STREAM: WRITE 22 offset=35
+Thu Apr 13 01:10:57 2017 us=588128 TCPv4_CLIENT write returned 24
+Thu Apr 13 01:10:57 2017 us=588157 TLS: tls_multi_process: i=0 state=S_PRE_START, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:57 2017 us=588170 NOTE: --mute triggered...
+Thu Apr 13 01:10:57 2017 us=588238 3 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:57 2017 us=588258 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Thu Apr 13 01:10:57 2017 us=588275 STATE S_SENT_KEY
+Thu Apr 13 01:10:57 2017 us=588319 BIO read tls_read_ciphertext 237 bytes
+Thu Apr 13 01:10:57 2017 us=588339 ACK mark active outgoing ID 1
+Thu Apr 13 01:10:57 2017 us=588347 NOTE: --mute triggered...
+Thu Apr 13 01:10:57 2017 us=588362 15 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:57 2017 us=588437 TCPv4_CLIENT WRITE [251] to [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=e0422852 a686aee0 [ ] pid=1 DATA 16030100 e8010000 e4030356 e2e1d00c 5e156293 da01fa61 733b1751 07cbf59[more...]
+Thu Apr 13 01:10:57 2017 us=588446 STREAM: WRITE 251 offset=30
+Thu Apr 13 01:10:57 2017 us=588462 TCPv4_CLIENT write returned 253
+Thu Apr 13 01:10:57 2017 us=588479 TLS: tls_multi_process: i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:57 2017 us=588489 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=4401 18 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=4967 TCPv4_CLIENT READ [1226] from [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=a32b8dda 526b9baf [ 1 sid=e0422852 a686aee0 ] pid=1 DATA 16030300 5e020000 5a0303e2 00e66a34 6f478522 61574c39 6684da53 c06f8d9[more...]
+Thu Apr 13 01:10:58 2017 us=4995 TLS: control channel, op=P_CONTROL_V1, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=5027 TLS: initial packet test, i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=5045 TLS: found match, session[0], sid=a32b8dda 526b9baf
+Thu Apr 13 01:10:58 2017 us=5059 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=5235 31 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=5272 TCPv4_CLIENT WRITE [22] to [AF_INET]88.150.154.46:443: P_ACK_V1 kid=0 sid=e0422852 a686aee0 [ 1 sid=a32b8dda 526b9baf ]
+Thu Apr 13 01:10:58 2017 us=5288 STREAM: WRITE 22 offset=35
+Thu Apr 13 01:10:58 2017 us=5350 TCPv4_CLIENT write returned 24
+Thu Apr 13 01:10:58 2017 us=5385 TLS: tls_multi_process: i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=5400 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=7567 18 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=8378 TCPv4_CLIENT READ [1214] from [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=a32b8dda 526b9baf [ ] pid=2 DATA 73737374 702e636f 6d300d06 092a8648 86f70d01 010b0500 03820101 0001cd3[more...]
+Thu Apr 13 01:10:58 2017 us=8416 TLS: control channel, op=P_CONTROL_V1, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=8462 TLS: initial packet test, i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=8489 TLS: found match, session[0], sid=a32b8dda 526b9baf
+Thu Apr 13 01:10:58 2017 us=8509 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=8600 24 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=8652 TCPv4_CLIENT WRITE [22] to [AF_INET]88.150.154.46:443: P_ACK_V1 kid=0 sid=e0422852 a686aee0 [ 2 sid=a32b8dda 526b9baf ]
+Thu Apr 13 01:10:58 2017 us=8675 STREAM: WRITE 22 offset=35
+Thu Apr 13 01:10:58 2017 us=8705 TCPv4_CLIENT write returned 24
+Thu Apr 13 01:10:58 2017 us=8747 TLS: tls_multi_process: i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=8770 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=8827 18 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=9566 TCPv4_CLIENT READ [1214] from [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=a32b8dda 526b9baf [ ] pid=3 DATA 01046530 63303b06 082b0601 05050730 02862f68 7474703a 2f2f6372 742e636[more...]
+Thu Apr 13 01:10:58 2017 us=9594 TLS: control channel, op=P_CONTROL_V1, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=9639 TLS: initial packet test, i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=9666 TLS: found match, session[0], sid=a32b8dda 526b9baf
+Thu Apr 13 01:10:58 2017 us=9686 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=9756 28 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=9806 TCPv4_CLIENT WRITE [22] to [AF_INET]88.150.154.46:443: P_ACK_V1 kid=0 sid=e0422852 a686aee0 [ 3 sid=a32b8dda 526b9baf ]
+Thu Apr 13 01:10:58 2017 us=9829 STREAM: WRITE 22 offset=35
+Thu Apr 13 01:10:58 2017 us=9856 TCPv4_CLIENT write returned 24
+Thu Apr 13 01:10:58 2017 us=9896 TLS: tls_multi_process: i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=9919 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=9972 17 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=10006 TCPv4_CLIENT READ [0] from [AF_INET]88.150.154.46:443: DATA UNDEF len=0
+Thu Apr 13 01:10:58 2017 us=10047 TLS: tls_multi_process: i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=10073 TLS: tls_process: chg=0 ks=S_SENT_KEY lame=S_UNDEF to_link->len=0 wakeup=604800
+Thu Apr 13 01:10:58 2017 us=10096 ACK reliable_can_send active=0 current=0 : [2]
+Thu Apr 13 01:10:58 2017 us=10135 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=12300 16 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=12671 TCPv4_CLIENT READ [882] from [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=a32b8dda 526b9baf [ ] pid=4 DATA b6d3426f 15b2b87b fbefe95d 53d5345a 27020301 0001a381 dc3081d9 301d060[more...]
+Thu Apr 13 01:10:58 2017 us=12697 TLS: control channel, op=P_CONTROL_V1, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=12728 TLS: initial packet test, i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=12745 TLS: found match, session[0], sid=a32b8dda 526b9baf
+Thu Apr 13 01:10:58 2017 us=12769 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=13612 10 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=13655 VERIFY OK: depth=2, C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Certification Authority
+Thu Apr 13 01:10:58 2017 us=16496 VERIFY OK: depth=1, C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Domain Validation Secure Server CA
+Thu Apr 13 01:10:58 2017 us=17087 Validating certificate key usage
+Thu Apr 13 01:10:58 2017 us=17109 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=17156 6 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=17172 SSL state (connect): unknown state
+Thu Apr 13 01:10:58 2017 us=17705 SSL state (connect): unknown state
+Thu Apr 13 01:10:58 2017 us=17784 SSL state (connect): unknown state
+Thu Apr 13 01:10:58 2017 us=45632 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=45825 22 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=45885 TCPv4_CLIENT WRITE [152] to [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=e0422852 a686aee0 [ 4 sid=a32b8dda 526b9baf ] pid=2 DATA 16030300 46100000 42410495 97e8f738 0bb848f2 5186075b 3433527d d703fb3[more...]
+Thu Apr 13 01:10:58 2017 us=45895 STREAM: WRITE 152 offset=18
+Thu Apr 13 01:10:58 2017 us=45909 TCPv4_CLIENT write returned 154
+Thu Apr 13 01:10:58 2017 us=45926 TLS: tls_multi_process: i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=45935 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=415151 18 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=415283 TCPv4_CLIENT READ [77] from [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=a32b8dda 526b9baf [ 2 sid=e0422852 a686aee0 ] pid=5 DATA 14030300 01011603 03002898 17477996 e4e04003 12f91d25 64469501 dda4613[more...]
+Thu Apr 13 01:10:58 2017 us=415313 TLS: control channel, op=P_CONTROL_V1, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=415345 TLS: initial packet test, i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=415363 TLS: found match, session[0], sid=a32b8dda 526b9baf
+Thu Apr 13 01:10:58 2017 us=415377 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=415645 32 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=415808 TCPv4_CLIENT WRITE [357] to [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=e0422852 a686aee0 [ 5 sid=a32b8dda 526b9baf ] pid=3 DATA 17030301 46134d1b e2b18074 a2cbf0cf 960a2319 c39a63e0 42149774 bd49773[more...]
+Thu Apr 13 01:10:58 2017 us=415825 STREAM: WRITE 357 offset=18
+Thu Apr 13 01:10:58 2017 us=415870 TCPv4_CLIENT write returned 359
+Thu Apr 13 01:10:58 2017 us=415903 TLS: tls_multi_process: i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=415918 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=599634 18 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=599851 TCPv4_CLIENT READ [259] from [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=a32b8dda 526b9baf [ 3 sid=e0422852 a686aee0 ] pid=6 DATA 17030300 e4981747 7996e4e0 411ab433 0d9693f2 0a04dd29 16d19382 adcca18[more...]
+Thu Apr 13 01:10:58 2017 us=599881 TLS: control channel, op=P_CONTROL_V1, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=599914 TLS: initial packet test, i=0 state=S_SENT_KEY, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=599933 TLS: found match, session[0], sid=a32b8dda 526b9baf
+Thu Apr 13 01:10:58 2017 us=599947 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=600224 41 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=600270 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Thu Apr 13 01:10:58 2017 us=600291 Data Channel Encrypt: CIPHER KEY: d39fa84d 95591aa4 97e5fdd0 fe17048d
+Thu Apr 13 01:10:58 2017 us=600307 Data Channel Encrypt: CIPHER block_size=16 iv_size=16
+Thu Apr 13 01:10:58 2017 us=600327 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Thu Apr 13 01:10:58 2017 us=600349 Data Channel Encrypt: HMAC KEY: 9384670e 5a742c84 8335ae73 4fc80723 df68016b
+Thu Apr 13 01:10:58 2017 us=600363 Data Channel Encrypt: HMAC size=20 block_size=20
+Thu Apr 13 01:10:58 2017 us=600380 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Thu Apr 13 01:10:58 2017 us=600399 Data Channel Decrypt: CIPHER KEY: 0e49b51a 36a0a012 a4a45a67 b9dd6419
+Thu Apr 13 01:10:58 2017 us=600414 Data Channel Decrypt: CIPHER block_size=16 iv_size=16
+Thu Apr 13 01:10:58 2017 us=600433 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Thu Apr 13 01:10:58 2017 us=600454 Data Channel Decrypt: HMAC KEY: b0610ff4 b40da5c0 13ada798 8f7d4a03 a45de918
+Thu Apr 13 01:10:58 2017 us=600467 Data Channel Decrypt: HMAC size=20 block_size=20
+Thu Apr 13 01:10:58 2017 us=600481 STATE S_GOT_KEY
+Thu Apr 13 01:10:58 2017 us=600496 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=600530 14 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=600561 TCPv4_CLIENT WRITE [22] to [AF_INET]88.150.154.46:443: P_ACK_V1 kid=0 sid=e0422852 a686aee0 [ 6 sid=a32b8dda 526b9baf ]
+Thu Apr 13 01:10:58 2017 us=600576 STREAM: WRITE 22 offset=35
+Thu Apr 13 01:10:58 2017 us=600658 TCPv4_CLIENT write returned 24
+Thu Apr 13 01:10:58 2017 us=600692 TLS: tls_multi_process: i=0 state=S_GOT_KEY, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=600708 NOTE: --mute triggered...
+Thu Apr 13 01:10:58 2017 us=600732 2 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:10:58 2017 us=600746 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Apr 13 01:10:58 2017 us=600780 [*.cactussstp.com] Peer Connection Initiated with [AF_INET]88.150.154.46:443
+Thu Apr 13 01:10:58 2017 us=600800 ACK reliable_can_send active=0 current=0 : [4]
+Thu Apr 13 01:10:58 2017 us=600822 TLS: tls_process: chg=1 ks=S_ACTIVE lame=S_UNDEF to_link->len=0 wakeup=604800
+Thu Apr 13 01:10:58 2017 us=600838 ACK reliable_can_send active=0 current=0 : [4]
+Thu Apr 13 01:10:58 2017 us=600854 NOTE: --mute triggered...
+Thu Apr 13 01:11:01 2017 us=55614 23 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:11:01 2017 us=55723 SENT CONTROL [*.cactussstp.com]: 'PUSH_REQUEST' (status=1)
+Thu Apr 13 01:11:01 2017 us=55768 TIMER: coarse timer wakeup 0 seconds
+Thu Apr 13 01:11:01 2017 us=55834 TLS: tls_multi_process: i=0 state=S_ACTIVE, mysid=e0422852 a686aee0, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:11:01 2017 us=55867 TLS: tls_process: chg=0 ks=S_ACTIVE lame=S_UNDEF to_link->len=0 wakeup=604800
+Thu Apr 13 01:11:01 2017 us=55889 NOTE: --mute triggered...
+Thu Apr 13 01:11:01 2017 us=55944 18 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:11:01 2017 us=56016 TCPv4_CLIENT WRITE [56] to [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=e0422852 a686aee0 [ ] pid=4 DATA 17030300 25134d1b e2b18074 a340544d 90fd1a87 7b73a971 d2d0b33f 549145a[more...]
+Thu Apr 13 01:11:01 2017 us=56052 STREAM: WRITE 56 offset=30
+Thu Apr 13 01:11:01 2017 us=56230 TCPv4_CLIENT write returned 58
+Thu Apr 13 01:11:01 2017 us=56279 TIMER: coarse timer wakeup 5 seconds
+Thu Apr 13 01:11:01 2017 us=56291 NOTE: --mute triggered...
+Thu Apr 13 01:11:01 2017 us=241315 19 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:11:01 2017 us=241457 TCPv4_CLIENT READ [22] from [AF_INET]88.150.154.46:443: P_ACK_V1 kid=0 sid=a32b8dda 526b9baf [ 4 sid=e0422852 a686aee0 ]
+Thu Apr 13 01:11:01 2017 us=241537 TLS: control channel, op=P_ACK_V1, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:11:01 2017 us=241589 TLS: initial packet test, i=0 state=S_ACTIVE, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:11:01 2017 us=241617 TLS: found match, session[0], sid=a32b8dda 526b9baf
+Thu Apr 13 01:11:01 2017 us=241639 NOTE: --mute triggered...
+Thu Apr 13 01:11:02 2017 us=260682 21 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:11:02 2017 us=260800 TCPv4_CLIENT READ [55] from [AF_INET]88.150.154.46:443: P_CONTROL_V1 kid=0 sid=a32b8dda 526b9baf [ ] pid=7 DATA 17030300 24981747 7996e4e0 42a427aa 72e258ac 3355a30d 0aa0872e e924c2e[more...]
+Thu Apr 13 01:11:02 2017 us=260830 TLS: control channel, op=P_CONTROL_V1, IP=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:11:02 2017 us=260858 TLS: initial packet test, i=0 state=S_ACTIVE, mysid=e0422852 a686aee0, rec-sid=a32b8dda 526b9baf, rec-ip=[AF_INET]88.150.154.46:443, stored-sid=a32b8dda 526b9baf, stored-ip=[AF_INET]88.150.154.46:443
+Thu Apr 13 01:11:02 2017 us=260873 TLS: found match, session[0], sid=a32b8dda 526b9baf
+Thu Apr 13 01:11:02 2017 us=260886 NOTE: --mute triggered...
+Thu Apr 13 01:11:02 2017 us=260952 20 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:11:02 2017 us=260968 AUTH: Received control message: AUTH_FAILED
+Thu Apr 13 01:11:02 2017 us=260986 PID packet_id_free
+Thu Apr 13 01:11:02 2017 us=261018 SSL alert (write): warning: close notify
+Thu Apr 13 01:11:02 2017 us=261099 PKCS#11: __pkcs11h_openssl_ex_data_free entered - parent=0x801d5390, ptr=(nil), ad=0x801d53c0, idx=0, argl=0, argp=0xb7670c97
+Thu Apr 13 01:11:02 2017 us=261179 NOTE: --mute triggered...
+Thu Apr 13 01:11:02 2017 us=261302 11 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 01:11:02 2017 us=261320 TCP/UDP: Closing socket
+Thu Apr 13 01:11:02 2017 us=261378 PID packet_id_free
+Thu Apr 13 01:11:02 2017 us=261405 SIGTERM[soft,auth-failure] received, process exiting
+Thu Apr 13 01:11:02 2017 us=261707 PKCS#11: pkcs11_terminate - entered
+Thu Apr 13 01:11:02 2017 us=261724 PKCS#11: pkcs11h_terminate entry
+Thu Apr 13 01:11:02 2017 us=261736 PKCS#11: Terminating openssl
+Thu Apr 13 01:11:02 2017 us=261748 NOTE: --mute triggered...
