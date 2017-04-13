@@ -1,0 +1,200 @@
+Thu Apr 13 00:09:11 2017 us=976693 Current Parameter Settings:
+Thu Apr 13 00:09:11 2017 us=976811   config = 'CactusVPN_testcert.ovpn'
+Thu Apr 13 00:09:11 2017 us=976836   mode = 0
+Thu Apr 13 00:09:11 2017 us=976856 NOTE: --mute triggered...
+Thu Apr 13 00:09:11 2017 us=976885 273 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:11 2017 us=976905 OpenVPN 2.3.14 i586-pc-linux-gnu [SSL (OpenSSL)] [LZO] [EPOLL] [PKCS11] [MH] [IPv6] built on Dec  7 2016
+Thu Apr 13 00:09:11 2017 us=976932 library versions: OpenSSL 1.0.1t  3 May 2016, LZO 2.08
+Thu Apr 13 00:09:17 2017 us=256614 PO_INIT maxevents=4 flags=0x00000002
+Thu Apr 13 00:09:17 2017 us=257830 PRNG init md=SHA1 size=36
+Thu Apr 13 00:09:17 2017 us=257895 crypto_adjust_frame_parameters: Adjusting frame parameters for crypto by 56 bytes
+Thu Apr 13 00:09:17 2017 us=257943 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=258078 4 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=258108 Control Channel MTU parms [ L:1557 D:1212 EF:38 EB:0 ET:0 EL:3 ]
+Thu Apr 13 00:09:17 2017 us=258160 MTU DYNAMIC mtu=1450, flags=2, 1557 -> 1450
+Thu Apr 13 00:09:17 2017 us=258213 Socket Buffers: R=[163840->163840] S=[163840->163840]
+Thu Apr 13 00:09:17 2017 us=258260 RESOLVE_REMOTE flags=0x0101 phase=1 rrs=0 sig=-1 status=0
+Thu Apr 13 00:09:17 2017 us=258290 Data Channel MTU parms [ L:1557 D:1450 EF:57 EB:12 ET:0 EL:3 ]
+Thu Apr 13 00:09:17 2017 us=258335 Local Options String: 'V4,dev-type tun,link-mtu 1557,tun-mtu 1500,proto UDPv4,cipher AES-128-CBC,auth SHA1,keysize 128,key-method 2,tls-client'
+Thu Apr 13 00:09:17 2017 us=258360 Expected Remote Options String: 'V4,dev-type tun,link-mtu 1557,tun-mtu 1500,proto UDPv4,cipher AES-128-CBC,auth SHA1,keysize 128,key-method 2,tls-server'
+Thu Apr 13 00:09:17 2017 us=258408 Local Options hash (VER=V4): '8326dbaa'
+Thu Apr 13 00:09:17 2017 us=258446 Expected Remote Options hash (VER=V4): 'b7f67de4'
+Thu Apr 13 00:09:17 2017 us=258478 UDPv4 link local: [undef]
+Thu Apr 13 00:09:17 2017 us=258512 UDPv4 link remote: [AF_INET]104.250.122.130:992
+Thu Apr 13 00:09:17 2017 us=258546 TIMER: coarse timer wakeup 1 seconds
+Thu Apr 13 00:09:17 2017 us=258576 ACK mark active outgoing ID 0
+Thu Apr 13 00:09:17 2017 us=258603 ACK reliable_can_send active=1 current=1 : [1] 0
+Thu Apr 13 00:09:17 2017 us=258626 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=258669 7 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=258707 UDPv4 WRITE [14] to [AF_INET]104.250.122.130:992: P_CONTROL_HARD_RESET_CLIENT_V2 kid=0 [ ] pid=0 DATA len=0
+Thu Apr 13 00:09:17 2017 us=258874 ACK reliable_can_send active=1 current=0 : [1] 0
+Thu Apr 13 00:09:17 2017 us=259013 SSL state (connect): before/connect initialization
+Thu Apr 13 00:09:17 2017 us=259097 SSL state (connect): SSLv2/v3 write client hello A
+Thu Apr 13 00:09:17 2017 us=259142 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=601676 5 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=601803 UDPv4 READ [26] from [AF_INET]104.250.122.130:992: P_CONTROL_HARD_RESET_SERVER_V2 kid=0 [ 0 ] pid=0 DATA len=0
+Thu Apr 13 00:09:17 2017 us=601873 TLS: Initial packet from [AF_INET]104.250.122.130:992, sid=0fe0012e 98d35509
+Thu Apr 13 00:09:17 2017 us=601906 ACK reliable_schedule_now
+Thu Apr 13 00:09:17 2017 us=601932 ACK received for pid 0, deleting from send buffer
+Thu Apr 13 00:09:17 2017 us=601955 ACK read ID 0 (buf->len=0)
+Thu Apr 13 00:09:17 2017 us=601976 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=602068 11 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=602107 UDPv4 WRITE [22] to [AF_INET]104.250.122.130:992: P_ACK_V1 kid=0 [ 0 ]
+Thu Apr 13 00:09:17 2017 us=602216 STATE S_START
+Thu Apr 13 00:09:17 2017 us=602252 ACK reliable_can_send active=0 current=0 : [1]
+Thu Apr 13 00:09:17 2017 us=602316 WARNING: this configuration may cache passwords in memory -- use the auth-nocache option to prevent this
+Thu Apr 13 00:09:17 2017 us=602347 STATE S_SENT_KEY
+Thu Apr 13 00:09:17 2017 us=602409 BIO read tls_read_ciphertext 237 bytes
+Thu Apr 13 00:09:17 2017 us=602482 ACK mark active outgoing ID 1
+Thu Apr 13 00:09:17 2017 us=602514 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=602555 7 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=602589 UDPv4 WRITE [251] to [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ ] pid=1 DATA len=237
+Thu Apr 13 00:09:17 2017 us=602663 ACK reliable_can_send active=1 current=0 : [2] 1
+Thu Apr 13 00:09:17 2017 us=602730 ACK reliable_send_timeout 2 [2] 1
+Thu Apr 13 00:09:17 2017 us=602764 PO_CTL rwflags=0x0001 ev=3 arg=0x801b7100
+Thu Apr 13 00:09:17 2017 us=602785 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=946384 3 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=946484 UDPv4 READ [1226] from [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ 1 ] pid=1 DATA len=1200
+Thu Apr 13 00:09:17 2017 us=946512 ACK received for pid 1, deleting from send buffer
+Thu Apr 13 00:09:17 2017 us=946530 ACK read ID 1 (buf->len=1200)
+Thu Apr 13 00:09:17 2017 us=946541 ACK RWBS rel->size=8 rel->packet_id=00000001 id=00000001 ret=1
+
+Thu Apr 13 00:09:17 2017 us=946551 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=946702 12 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=946726 UDPv4 WRITE [22] to [AF_INET]104.250.122.130:992: P_ACK_V1 kid=0 [ 1 ]
+Thu Apr 13 00:09:17 2017 us=946804 ACK reliable_can_send active=0 current=0 : [2]
+Thu Apr 13 00:09:17 2017 us=946841 ACK reliable_send_timeout 604800 [2]
+Thu Apr 13 00:09:17 2017 us=946867 PO_CTL rwflags=0x0001 ev=3 arg=0x801b7100
+Thu Apr 13 00:09:17 2017 us=946884 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=948660 3 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=948735 UDPv4 READ [1214] from [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ ] pid=2 DATA len=1200
+Thu Apr 13 00:09:17 2017 us=948781 ACK read ID 2 (buf->len=1200)
+Thu Apr 13 00:09:17 2017 us=948822 ACK RWBS rel->size=8 rel->packet_id=00000002 id=00000002 ret=1
+
+Thu Apr 13 00:09:17 2017 us=948859 ACK mark active incoming ID 2
+Thu Apr 13 00:09:17 2017 us=948891 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=949008 10 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=949067 UDPv4 WRITE [22] to [AF_INET]104.250.122.130:992: P_ACK_V1 kid=0 [ 2 ]
+Thu Apr 13 00:09:17 2017 us=949194 ACK reliable_can_send active=0 current=0 : [2]
+Thu Apr 13 00:09:17 2017 us=949276 ACK reliable_send_timeout 604800 [2]
+Thu Apr 13 00:09:17 2017 us=949370 PO_CTL rwflags=0x0001 ev=3 arg=0x801b7100
+Thu Apr 13 00:09:17 2017 us=949405 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=949456 3 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=949510 UDPv4 READ [1214] from [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ ] pid=3 DATA len=1200
+Thu Apr 13 00:09:17 2017 us=949552 ACK read ID 3 (buf->len=1200)
+Thu Apr 13 00:09:17 2017 us=949591 ACK RWBS rel->size=8 rel->packet_id=00000003 id=00000003 ret=1
+
+Thu Apr 13 00:09:17 2017 us=949617 ACK mark active incoming ID 3
+Thu Apr 13 00:09:17 2017 us=949646 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=949759 10 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=949818 UDPv4 WRITE [22] to [AF_INET]104.250.122.130:992: P_ACK_V1 kid=0 [ 3 ]
+Thu Apr 13 00:09:17 2017 us=949911 ACK reliable_can_send active=0 current=0 : [2]
+Thu Apr 13 00:09:17 2017 us=949968 ACK reliable_send_timeout 604800 [2]
+Thu Apr 13 00:09:17 2017 us=950009 PO_CTL rwflags=0x0001 ev=3 arg=0x801b7100
+Thu Apr 13 00:09:17 2017 us=950032 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=952993 3 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=953042 UDPv4 READ [882] from [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ ] pid=4 DATA len=868
+Thu Apr 13 00:09:17 2017 us=953069 ACK read ID 4 (buf->len=868)
+Thu Apr 13 00:09:17 2017 us=953092 ACK RWBS rel->size=8 rel->packet_id=00000004 id=00000004 ret=1
+
+Thu Apr 13 00:09:17 2017 us=953131 ACK mark active incoming ID 4
+Thu Apr 13 00:09:17 2017 us=953145 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=953962 3 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=953989 VERIFY OK: depth=2, C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Certification Authority
+Thu Apr 13 00:09:17 2017 us=956784 VERIFY OK: depth=1, C=GB, ST=Greater Manchester, L=Salford, O=COMODO CA Limited, CN=COMODO RSA Domain Validation Secure Server CA
+Thu Apr 13 00:09:17 2017 us=957920 Validating certificate key usage
+Thu Apr 13 00:09:17 2017 us=957960 NOTE: --mute triggered...
+Thu Apr 13 00:09:17 2017 us=958042 6 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:17 2017 us=958071 SSL state (connect): unknown state
+Thu Apr 13 00:09:18 2017 us=10262 SSL state (connect): unknown state
+Thu Apr 13 00:09:18 2017 us=10462 SSL state (connect): unknown state
+Thu Apr 13 00:09:18 2017 us=15726 NOTE: --mute triggered...
+Thu Apr 13 00:09:18 2017 us=17112 14 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:18 2017 us=17166 UDPv4 WRITE [152] to [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ 4 ] pid=2 DATA len=126
+Thu Apr 13 00:09:18 2017 us=17282 TIMER: coarse timer wakeup 1 seconds
+Thu Apr 13 00:09:18 2017 us=17312 ACK reliable_can_send active=1 current=0 : [3] 2
+Thu Apr 13 00:09:18 2017 us=17348 ACK reliable_send_timeout 2 [3] 2
+Thu Apr 13 00:09:18 2017 us=17368 NOTE: --mute triggered...
+Thu Apr 13 00:09:18 2017 us=358007 4 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:18 2017 us=358089 UDPv4 READ [77] from [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ 2 ] pid=5 DATA len=51
+Thu Apr 13 00:09:18 2017 us=358112 ACK received for pid 2, deleting from send buffer
+Thu Apr 13 00:09:18 2017 us=358135 ACK read ID 5 (buf->len=51)
+Thu Apr 13 00:09:18 2017 us=358161 ACK RWBS rel->size=8 rel->packet_id=00000005 id=00000005 ret=1
+
+Thu Apr 13 00:09:18 2017 us=358179 NOTE: --mute triggered...
+Thu Apr 13 00:09:18 2017 us=358447 16 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:18 2017 us=358482 UDPv4 WRITE [350] to [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ 5 ] pid=3 DATA len=324
+Thu Apr 13 00:09:18 2017 us=358550 ACK reliable_can_send active=1 current=0 : [4] 3
+Thu Apr 13 00:09:18 2017 us=358577 ACK reliable_send_timeout 2 [4] 3
+Thu Apr 13 00:09:18 2017 us=358595 PO_CTL rwflags=0x0001 ev=3 arg=0x801b7100
+Thu Apr 13 00:09:18 2017 us=358609 NOTE: --mute triggered...
+Thu Apr 13 00:09:18 2017 us=697945 3 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:18 2017 us=698063 UDPv4 READ [252] from [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ 3 ] pid=6 DATA len=226
+Thu Apr 13 00:09:18 2017 us=698100 ACK received for pid 3, deleting from send buffer
+Thu Apr 13 00:09:18 2017 us=698120 ACK read ID 6 (buf->len=226)
+Thu Apr 13 00:09:18 2017 us=698139 ACK RWBS rel->size=8 rel->packet_id=00000006 id=00000006 ret=1
+
+Thu Apr 13 00:09:18 2017 us=698158 NOTE: --mute triggered...
+Thu Apr 13 00:09:18 2017 us=698442 33 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:18 2017 us=698469 Data Channel Encrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Thu Apr 13 00:09:18 2017 us=698495 Data Channel Encrypt: CIPHER KEY: 7ff28fe5 6cd1bac4 6349544d 0aa73db6
+Thu Apr 13 00:09:18 2017 us=698516 Data Channel Encrypt: CIPHER block_size=16 iv_size=16
+Thu Apr 13 00:09:18 2017 us=698541 Data Channel Encrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Thu Apr 13 00:09:18 2017 us=698569 Data Channel Encrypt: HMAC KEY: eb1540a4 37b533fa 2ca2bb4c 94fb3767 2700a097
+Thu Apr 13 00:09:18 2017 us=698586 Data Channel Encrypt: HMAC size=20 block_size=20
+Thu Apr 13 00:09:18 2017 us=698607 Data Channel Decrypt: Cipher 'AES-128-CBC' initialized with 128 bit key
+Thu Apr 13 00:09:18 2017 us=698631 Data Channel Decrypt: CIPHER KEY: 501c344a 1dd5de96 56ccb31b e0d42993
+Thu Apr 13 00:09:18 2017 us=698671 Data Channel Decrypt: CIPHER block_size=16 iv_size=16
+Thu Apr 13 00:09:18 2017 us=698696 Data Channel Decrypt: Using 160 bit message hash 'SHA1' for HMAC authentication
+Thu Apr 13 00:09:18 2017 us=698722 Data Channel Decrypt: HMAC KEY: 4ab0d942 12644dd5 9d856d42 f59d4c68 83432f8c
+Thu Apr 13 00:09:18 2017 us=698739 Data Channel Decrypt: HMAC size=20 block_size=20
+Thu Apr 13 00:09:18 2017 us=698756 STATE S_GOT_KEY
+Thu Apr 13 00:09:18 2017 us=698774 NOTE: --mute triggered...
+Thu Apr 13 00:09:18 2017 us=698812 7 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:18 2017 us=698841 UDPv4 WRITE [22] to [AF_INET]104.250.122.130:992: P_ACK_V1 kid=0 [ 6 ]
+Thu Apr 13 00:09:18 2017 us=698948 STATE S_ACTIVE
+Thu Apr 13 00:09:18 2017 us=698996 Control Channel: TLSv1.2, cipher TLSv1/SSLv3 ECDHE-RSA-AES256-GCM-SHA384, 2048 bit RSA
+Thu Apr 13 00:09:18 2017 us=699059 [*.cactussstp.com] Peer Connection Initiated with [AF_INET]104.250.122.130:992
+Thu Apr 13 00:09:18 2017 us=699086 ACK reliable_can_send active=0 current=0 : [4]
+Thu Apr 13 00:09:18 2017 us=699112 ACK reliable_can_send active=0 current=0 : [4]
+Thu Apr 13 00:09:18 2017 us=699136 ACK reliable_send_timeout 604800 [4]
+Thu Apr 13 00:09:18 2017 us=699156 NOTE: --mute triggered...
+Thu Apr 13 00:09:20 2017 us=843599 10 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:20 2017 us=843693 SENT CONTROL [*.cactussstp.com]: 'PUSH_REQUEST' (status=1)
+Thu Apr 13 00:09:20 2017 us=843719 TIMER: coarse timer wakeup 0 seconds
+Thu Apr 13 00:09:20 2017 us=843748 ACK reliable_can_send active=0 current=0 : [4]
+Thu Apr 13 00:09:20 2017 us=843782 BIO read tls_read_ciphertext 42 bytes
+Thu Apr 13 00:09:20 2017 us=843803 NOTE: --mute triggered...
+Thu Apr 13 00:09:20 2017 us=843836 8 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:20 2017 us=843872 UDPv4 WRITE [56] to [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ ] pid=4 DATA len=42
+Thu Apr 13 00:09:20 2017 us=843994 TIMER: coarse timer wakeup 5 seconds
+Thu Apr 13 00:09:20 2017 us=844029 ACK reliable_can_send active=1 current=0 : [5] 4
+Thu Apr 13 00:09:20 2017 us=844058 ACK reliable_send_timeout 2 [5] 4
+Thu Apr 13 00:09:20 2017 us=844097 NOTE: --mute triggered...
+Thu Apr 13 00:09:21 2017 us=181489 4 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:21 2017 us=181591 UDPv4 READ [22] from [AF_INET]104.250.122.130:992: P_ACK_V1 kid=0 [ 4 ]
+Thu Apr 13 00:09:21 2017 us=181626 ACK received for pid 4, deleting from send buffer
+Thu Apr 13 00:09:21 2017 us=181669 ACK reliable_can_send active=0 current=0 : [5]
+Thu Apr 13 00:09:21 2017 us=181712 ACK reliable_send_timeout 604800 [5]
+Thu Apr 13 00:09:21 2017 us=181740 NOTE: --mute triggered...
+Thu Apr 13 00:09:22 2017 us=560835 4 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:22 2017 us=560965 UDPv4 READ [55] from [AF_INET]104.250.122.130:992: P_CONTROL_V1 kid=0 [ ] pid=7 DATA len=41
+Thu Apr 13 00:09:22 2017 us=561012 ACK read ID 7 (buf->len=41)
+Thu Apr 13 00:09:22 2017 us=561046 ACK RWBS rel->size=8 rel->packet_id=00000007 id=00000007 ret=1
+
+Thu Apr 13 00:09:22 2017 us=561076 ACK mark active incoming ID 7
+Thu Apr 13 00:09:22 2017 us=561105 NOTE: --mute triggered...
+Thu Apr 13 00:09:22 2017 us=612640 7 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:22 2017 us=612714 AUTH: Received control message: AUTH_FAILED
+Thu Apr 13 00:09:22 2017 us=612777 PID packet_id_free
+Thu Apr 13 00:09:22 2017 us=612817 SSL alert (write): warning: close notify
+Thu Apr 13 00:09:22 2017 us=612956 PID packet_id_free
+Thu Apr 13 00:09:22 2017 us=612971 NOTE: --mute triggered...
+Thu Apr 13 00:09:22 2017 us=613038 6 variation(s) on previous 3 message(s) suppressed by --mute
+Thu Apr 13 00:09:22 2017 us=613050 TCP/UDP: Closing socket
+Thu Apr 13 00:09:22 2017 us=613073 PID packet_id_free
+Thu Apr 13 00:09:22 2017 us=613090 SIGTERM[soft,auth-failure] received, process exiting
+Thu Apr 13 00:09:22 2017 us=613341 PKCS#11: Terminating openssl
+Thu Apr 13 00:09:22 2017 us=613360 PKCS#11: Removing providers
+Thu Apr 13 00:09:22 2017 us=613383 PKCS#11: Releasing sessions
+Thu Apr 13 00:09:22 2017 us=613392 NOTE: --mute triggered...
